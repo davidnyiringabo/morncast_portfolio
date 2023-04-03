@@ -13,6 +13,7 @@ function App() {
     <div className='overall-container'>
       <BrowserRouter>
         <div className="overall-main-container">
+         <Navbar/>
           <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<AboutPage/>}/>

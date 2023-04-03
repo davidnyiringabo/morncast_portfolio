@@ -1,0 +1,128 @@
+.about-page-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0 0;
+    background: #F1F4F5;
+}
+.upper-about-content{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 6%;
+}
+.left-about-upper{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 9%;
+    font-family: sans-serif, Poppins;
+    /* font-family: Poppins; */
+}
+.right-about-upper{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    align-items: center;
+}
+.right-about-upper img{
+    width: 50%;
+    border-radius: 10px;
+}
+.midde-about-content{
+    width: 100%;
+    height: 70vh;
+    background: #fff;
+    padding: 1% 5%;
+}
+.carousels-wrapper{
+    width: 100%;
+    height: 96%;
+    border: 1px solid;
+}
+.lower-about-content{
+    width: 100%;
+    height: 50rem;
+}
+.upper-lower-content{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    background: #070D18;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 17%;
+    gap: 10%;
+    color: #fff;
+}
+.sponsors-container{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9%;
+    margin-top: 7%;
+    font-family: sans-serif, Poppins;
+}
+.sponsors-container img{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.lower-lower-content{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background: #fff;
+}
+.lower-middle-content{
+    width: 80%;
+    height: 65%;
+    border-radius: 20px;
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 7%;
+}
+.lower-right-content{
+    width: 40%;
+    height: 25%;
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.lower-right-content input{
+    outline: none;
+    border: none;
+    width: 70%;
+    padding: 2%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 15px;
+    color: #878889;
+}
+input::placeholder{
+    font-size: 15px;
+    color: #878889;
+}
+.lower-right-content button{
+    width: 30%;
+    height: 70%;
+    background: #42BDEC;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}

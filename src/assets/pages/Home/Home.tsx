@@ -1,14 +1,11 @@
 import "./home.css"
-import Carousel from "../../Components/Carousel"
 import Carouselcomponent from "../../Components/Carousel"
-import Navbar from "../../Components/Navbar/Navbar"
 import bulb from "/Bulb.png"
 import peopleimg from "/peopleimg.png"
 import logoimg from "/logo.png"
 import arrow from "/arrow.png"
 import diamond from "/diamond.png"
 import linechart from "/LineChart.png"
-import clockimg from "/clock.png"
 import cyber from "/cyber.png"
 import designing from "/designing.png"
 import digitalmarketing from "/digitalmarketing.png"
@@ -21,7 +18,6 @@ import Footer from "../../Components/Footer/Footer"
 const Home = ()=>{
         return(
             <div className="container-home">
-                        <Navbar/>
                 <div className="upper-content">
                     <div className="upper-header-content" id="upper-content">
                         <h2>WELCOME TO OUR COMMUNITY MORNCAST</h2>
