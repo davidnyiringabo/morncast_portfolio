@@ -1,0 +1,28 @@
+.carousels-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+}
+.carousel-item{
+  width: 60%;
+  height: 500px;
+  border-radius: 10px;
+  background: #d7d4d4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 6%;
+}
+.carousel-item p{
+  font-size: 17px;
+  padding-left: 10%;
+  color: #3a3939;
+}
+.carousel-item img{
+  border-radius: 10px;
+}

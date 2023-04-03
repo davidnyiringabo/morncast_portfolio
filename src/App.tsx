@@ -12,15 +12,17 @@ function App() {
   return (
     <div className='overall-container'>
       <BrowserRouter>
-        <Navbar/>
+        <div className="overall-main-container">
           <Routes>
-              <Route path='/' element={<Home/>}/>
-              <Route path='/about' element={<AboutPage/>}/>
-              <Route path='/services' element={<Servicespage/>}/>
-              <Route path='/news' element={<Newspage/>}/>
-              <Route path='/contact' element={<Contactpage/>}/>
+                <Route path='/' element={<Home/>}/>
+                <Route path='/about' element={<AboutPage/>}/>
+                <Route path='/services' element={<Servicespage/>}/>
+                <Route path='/news' element={<Newspage/>}/>
+                <Route path='/contact' element={<Contactpage/>}/>
 
-          </Routes>
+            </Routes>
+        </div>
+          
        
     </BrowserRouter>
     </div>
